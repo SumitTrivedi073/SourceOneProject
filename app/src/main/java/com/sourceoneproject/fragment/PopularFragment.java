@@ -46,8 +46,6 @@ public class PopularFragment extends Fragment {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_popular, container, false);
 
-        view = inflater.inflate(R.layout.fragment_latest, container, false);
-
         recyclerView = view.findViewById(R.id.recyclerview);
 
 
